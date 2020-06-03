@@ -12,7 +12,7 @@ This project is an end-of-semester project at ESME Sudria - Paris.
 * [Unity](https://store.unity.com/fr/download-nuo) - Cross-platform game engine
 
 ### LabStreamingLayer 
-We decided to use LSL, as this created a flow, it could be simple for any machine to record the transmitted data flow.
+We decided to use LSL, as this created a flow, it could be simple for any machine to record the transmitted data flow, for example with [LabRecorder](https://github.com/labstreaminglayer/App-LabRecorder).
 In addition Unity perfectly manages the LSL flow input in order to modify the environment. For more information see Jelena Mladenovic's [tutorial](https://jmladeno.net/index.php/2017/12/01/sync-data-from-unity-vr-and-physiology/)
 
 ### CyKIT Module
