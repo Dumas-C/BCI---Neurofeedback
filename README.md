@@ -13,11 +13,11 @@ This project is an end-of-semester project at ESME Sudria - Paris.
 
 ### LabStreamingLayer 
 We decided to use LSL, as this created a flow, it could be simple for any machine to record the transmitted data flow.
-In addition Unity perfectly manages the LSL flow input in order to modify the environment. For more information see Jelena Mladenovic's tutorial : https://jmladeno.net/index.php/2017/12/01/sync-data-from-unity-vr-and-physiology/
+In addition Unity perfectly manages the LSL flow input in order to modify the environment. For more information see Jelena Mladenovic's [tutorial](https://jmladeno.net/index.php/2017/12/01/sync-data-from-unity-vr-and-physiology/)
 
 ### CyKIT Module
 Thanks to this module, it was possible to retrieve the EEG signal from the headphones, directly on OpenVibe.
-Follow this link to see how can you recover EEG Signals from EPOC+ to OpenVibe : https://github.com/CymatiCorp/CyKit/wiki/How-to-Stream-Data-to-OpenViBE
+Follow this [link](https://github.com/CymatiCorp/CyKit/wiki/How-to-Stream-Data-to-OpenViBE) to see how can you recover EEG Signals from EPOC+ to OpenVibe
 
 
 ## Authors
