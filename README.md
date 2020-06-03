@@ -4,12 +4,12 @@ This project is an end-of-semester project at ESME Sudria - Paris.
 ## Requirements
 
 ### Hardware
-* [Emotiv - Epoc +] (https://www.emotiv.com/epoc/) - Mobile EEG Technologie
+* [Emotiv - Epoc +](https://www.emotiv.com/epoc/) - Mobile EEG Technologie
 
 ### SoftWare
-* [OpenVibe] (http://openvibe.inria.fr/) - Software for BCI
-* [Python] (https://www.python.org/downloads/) - Programming Langage
-* [Unity] (https://store.unity.com/fr/download-nuo) - Cross-platform game engine
+* [OpenVibe](http://openvibe.inria.fr/) - Software for BCI
+* [Python](https://www.python.org/downloads/) - Programming Langage
+* [Unity](https://store.unity.com/fr/download-nuo) - Cross-platform game engine
 
 ### LabStreamingLayer 
 We decided to use LSL, as this created a flow, it could be simple for any machine to record the transmitted data flow.
@@ -23,10 +23,10 @@ Follow this link to see how can you recover EEG Signals from EPOC+ to OpenVibe :
 ## Authors
 
 ### Students
-* **Lalieve Laura** _alias_ [@Laura-99] (https://github.com/Laura-99)
-* **Dumas Cassandra** _alias_ [@Dumas-C] (https://github.com/Dumas-C)
+* **Lalieve Laura** _alias_ [@Laura-99](https://github.com/Laura-99)
+* **Dumas Cassandra** _alias_ [@Dumas-C](https://github.com/Dumas-C)
 
 ### Supervisor
-* **Boubchir Larbi** _alias_ [@boubchir] (https://github.com/boubchir)
+* **Boubchir Larbi** _alias_ [@boubchir](https://github.com/boubchir)
 
 
