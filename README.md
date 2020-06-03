@@ -1,13 +1,1 @@
-BCI Project -- Neurofeedback 
-
- - Install
-
-Unity + add XR Plugin Managementt
-Visual Studio Code  + C# Plugin + Python Plugin
-Android Studio
-OpenBCI 
-
- - Python Package
-
-pylsl
-numpy
+Passage par le module python CyKIT permettant une interaction des données via OpenVIBE : https://github.com/CymatiCorp/CyKit
