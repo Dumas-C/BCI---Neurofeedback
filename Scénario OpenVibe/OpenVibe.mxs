@@ -46,6 +46,56 @@
 			</Attributes>
 		</Box>
 		<Box>
+			<Identifier>(0x000013c2, 0x0000569a)</Identifier>
+			<Name>CSV File Reader</Name>
+			<AlgorithmClassIdentifier>(0x336a3d9a, 0x753f1ba4)</AlgorithmClassIdentifier>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Output stream</Name>
+				</Output>
+				<Output>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Output stimulation</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Filename</Name>
+					<DefaultValue></DefaultValue>
+					<Value>C:/Users/cassa/Documents/Ullo/Machine_Learning/Enregistrement_EPOC+ (no_filter)/Cassandra_Méditation</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>48</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>336</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x30a4e5c9, 0x83502953)</Identifier>
+					<Value></Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xa9cdc629, 0xb153eb33)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
 			<Identifier>(0x00001d56, 0x00000d71)</Identifier>
 			<Name>Alpha</Name>
 			<AlgorithmClassIdentifier>(0x0055be5f, 0x087bdd12)</AlgorithmClassIdentifier>
@@ -152,71 +202,6 @@
 				<Attribute>
 					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
 					<Value>3</Value>
-				</Attribute>
-			</Attributes>
-		</Box>
-		<Box>
-			<Identifier>(0x0000228b, 0x0000594f)</Identifier>
-			<Name>Acquisition client</Name>
-			<AlgorithmClassIdentifier>(0x35d225cb, 0x3e6e3a5f)</AlgorithmClassIdentifier>
-			<Outputs>
-				<Output>
-					<TypeIdentifier>(0x403488e7, 0x565d70b6)</TypeIdentifier>
-					<Name>Experiment information</Name>
-				</Output>
-				<Output>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Signal stream</Name>
-				</Output>
-				<Output>
-					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
-					<Name>Stimulations</Name>
-				</Output>
-				<Output>
-					<TypeIdentifier>(0x013df452, 0xa3a8879a)</TypeIdentifier>
-					<Name>Channel localisation</Name>
-				</Output>
-				<Output>
-					<TypeIdentifier>(0x6ab26b81, 0x0f8c02f3)</TypeIdentifier>
-					<Name>Channel units</Name>
-				</Output>
-			</Outputs>
-			<Settings>
-				<Setting>
-					<TypeIdentifier>(0x79a9edeb, 0x245d83fc)</TypeIdentifier>
-					<Name>Acquisition server hostname</Name>
-					<DefaultValue>${AcquisitionServer_HostName}</DefaultValue>
-					<Value>${AcquisitionServer_HostName}</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
-					<Name>Acquisition server port</Name>
-					<DefaultValue>1024</DefaultValue>
-					<Value>1024</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-			</Settings>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>48</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>336</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
-					<Value>(0x0d4656c0, 0xc95b1fa8)</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
-					<Value>5</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
-					<Value>2</Value>
 				</Attribute>
 			</Attributes>
 		</Box>
@@ -814,6 +799,17 @@
 	</Boxes>
 	<Links>
 		<Link>
+			<Identifier>(0x000003d5, 0x00001de3)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000013c2, 0x0000569a)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x0000798a, 0x00002b21)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
 			<Identifier>(0x00001446, 0x00005d13)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x00006c54, 0x00003102)</BoxIdentifier>
@@ -821,17 +817,6 @@
 			</Source>
 			<Target>
 				<BoxIdentifier>(0x00004298, 0x000030f5)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x000014d8, 0x00004960)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x0000228b, 0x0000594f)</BoxIdentifier>
-				<BoxOutputIndex>1</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x0000798a, 0x00002b21)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>

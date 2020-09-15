@@ -16,10 +16,6 @@ namespace Assets.LSL4Unity.Scripts.Examples
         {
             // just as an example, make a string out of all channel values of this sample
             lastSample = newSample;
-
-            Debug.Log(
-                string.Format("Got {0} samples at {1}", newSample.Length, timeStamp)
-                );
         }
     }
 }
