@@ -12,24 +12,24 @@ public class rain : MonoBehaviour
     {
         calibrationmoyenne = GameObject.Find("Calibration").GetComponent<calibrationMoyenne>();
         pluie = GameObject.Find("RainPrefab").GetComponent<RainScript>();
-        pluie.enabled = true;
+        pluie.RainIntensity = 0.5f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (calibrationmoyenne.phase == 3) { pluie.enabled = false; }
+        if (calibrationmoyenne.phase == 3) { pluie.RainIntensity = 0f; }
         
-        if (calibrationmoyenne.phase == 2) { pluie.enabled = false; }
+        if (calibrationmoyenne.phase == 2) { pluie.RainIntensity = 0f; }
         
-        if (calibrationmoyenne.phase == 1) { pluie.enabled = false; }
+        if (calibrationmoyenne.phase == 1) { pluie.RainIntensity = 0f; }
         
-        if (calibrationmoyenne.phase == 0) { pluie.enabled = true; }
+        if (calibrationmoyenne.phase == 0) { pluie.RainIntensity = 0.5f; }
         
-        if (calibrationmoyenne.phase == -1) { pluie.enabled = true; }
+        if (calibrationmoyenne.phase == -1) { pluie.RainIntensity = 1f; }
         
-        if (calibrationmoyenne.phase == -2) { pluie.enabled = true; }
+        if (calibrationmoyenne.phase == -2) { pluie.RainIntensity = 1f; }
         
-        if (calibrationmoyenne.phase == -3) { pluie.enabled = true; }
+        if (calibrationmoyenne.phase == -3) { pluie.RainIntensity = 1f; }
     }
 }
