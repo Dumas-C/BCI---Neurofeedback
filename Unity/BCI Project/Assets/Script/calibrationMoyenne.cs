@@ -135,6 +135,7 @@ public class calibrationMoyenne : MonoBehaviour
                 phase = 3;
             }
 
+            Debug.Log(phase);
             //Debug.Log(phase);
             starttimeSeconde = Time.time;
         }
