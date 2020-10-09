@@ -361,7 +361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1da38a6a9335e8e48af8b17d9c369265, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moment: 0
+  moment: 1
   StreamName: BCI
   StreamType: EEG
   lastSample: []
